@@ -1,0 +1,91 @@
+header {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 3px 3px rgb(72, 10, 97);
+    background-image: url("./images/matrix-code.webp");
+    background-size: 100%;
+    color: goldenrod;
+    text-align: center;
+    
+}
+
+h3 {
+    background-color: rgb(92, 87, 87);
+    color: beige;
+}
+
+
+li {
+    display: inline;
+    border: 2px solid green;
+    background-color: goldenrod;
+}
+
+p {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: lightgreen;
+    padding: 6px
+}
+
+.newdiv{
+    border: 5px dotted goldenrod;
+    text-align: center;
+
+}
+
+.controversial {
+    display: flex;
+    background-color: red;
+    color: white;
+    font-size: 30px;
+    border-radius: 45px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+Body {
+    background-color: darkgreen;
+    margin: 5%;
+    padding: 2%;
+    border: 5px solid black;
+    align-items: stretch;
+
+}
+
+button {
+    text-align: center;
+    border: 7px dotted white;
+    background-color: blue;
+    border-radius: 45px;
+    color: goldenrod;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 600px) {
+    .ul {
+        display: flex;
+        list-style-type: none;
+        margin: 1px;
+        padding: 2px;
+        text-align: right;
+        justify-content: center;
+    }
+      }
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+    ul {
+        display: flex;
+        margin: 2px;
+        padding: 2px;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column; 
+    }
+      }
